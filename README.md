@@ -52,9 +52,4 @@ https://github.com/Antox/Antox
  Whonix https://www.whonix.org/ 
  Tails https://tails.boum.org/
 secure scuttle butt https://scuttlebutt.nz/
-2 Linked References to "DoomWare"
-April 1st, 2020
-Mike - worked on doomware bit, still need to get into the flow but its coming along [[DoomWare]]
-March 31st, 2020
-[[DoomWare]]
-1 Unlinked Reference to "DoomWare"
+
