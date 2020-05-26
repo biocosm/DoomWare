@@ -1,9 +1,9 @@
 
-## DoomWare
-# Software and Hardware for communities in decline
+# DoomWare
+## Software and Hardware for communities in decline
 
 
-# Geography Tools
+### Geography Tools
 + [OsmAnd~ https://osmand.net/](https://osmand.net/)
   - Open Source Map And geolocation/GIS tool
   - Able to make GPS tracks and waypoints to for personal use or share
@@ -12,15 +12,15 @@
 + Tracking
   - Navigation? geolocation/GP
 
-# General Offline Info
+### General Offline Info
 + [Aard2 Dict http://aarddict.org](http://aarddict.org)
 + Wikipedia (15 Gb)
   - https://en.wikipedia.org/wiki/Wikipedia:Database_download#Aard_Dictionary
 
-# 3d Printing and Fabrication
+### 3d Printing and Fabrication
 + [defense distributed](https://defcad.com/)
 
-# Introduction to Electricity Generation
+### Introduction to Electricity Generation
 + http://www.scraptopower.co.uk/home
 
 + Scrapping
@@ -32,11 +32,11 @@
     - types of metals
     - hazardous waste
 
-# Avoiding toxic disaster zones
+### Avoiding toxic disaster zones
 + Keep nuclear plants, refinieries, chemical, superfund sites on GIS
 + Watch the grasses; know the signs of heavy metal poisoning in plants.
 
-# Data storage, Encryption, etc
+### Data storage, Encryption, etc
 + Steganography and encryption tools
 + Truecrypt?
 + Hardware data
@@ -55,7 +55,7 @@
   - Secure scuttle butt
     - https://scuttlebutt.nz/
 
-# Radio
+### Radio
 + Introduction To CB/HAM radio
   - Radioreference.com
   - baofeng manual http://radiodoc.github.io/
