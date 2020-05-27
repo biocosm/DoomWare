@@ -46,15 +46,13 @@
     - https://tox.chat/about.html
     - https://qtox.github.io/
     - https://github.com/Antox/Antox
-  - XMPP(Jabber) and OTR  (does this belong?)
-    - https://otr.cypherpunks.ca/
+  - XMPP(Jabber) and OTR
     - [XMPP https://xmpp.org/](https://xmpp.org/)
-  - Whonix
-    - https://www.whonix.org/
-  - Tails
-    - https://tails.boum.org/
-  - Secure scuttle butt
-    - https://scuttlebutt.nz/
+    - [OTR https://otr.cypherpunks.ca/](https://otr.cypherpunks.ca/)
+  - [Secure scuttle butt https://scuttlebutt.nz/](https://scuttlebutt.nz/)
++ Anonymous Browsing
+  - [Whonix https://www.whonix.org/](https://www.whonix.org/)
+  - [Tails https://tails.boum.org/](https://tails.boum.org)
 
 ### Radio
 + Introduction To CB/HAM radio
