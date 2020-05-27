@@ -2,13 +2,14 @@
 # DoomWare
 ## Software and Hardware for communities in decline
 ### Geography Tools
-+ [OsmAnd~ https://osmand.net/](https://osmand.net/)
-  - Open Source Map And geolocation/GIS tool
-  - Able to make GPS tracks and waypoints to for personal use or share
 + GIS data
-  -Links to data sets for roads/pathways, water, agricultural information
+  - [Free GIS Data https://freegisdata.rtwilson.com/](https://freegisdata.rtwilson.com/)
+  - * Links to data sets for roads/pathways, water, agricultural information *
 + Tracking
   - Navigation? geolocation/GP
+    - [OsmAnd~ https://osmand.net/](https://osmand.net/)
+      - Open Source Map And geolocation/GIS tool
+      - Able to make GPS tracks and waypoints to for personal use or share
 
 ### General Offline Info
 + [Aard2 Dict http://aarddict.org](http://aarddict.org)
