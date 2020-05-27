@@ -1,10 +1,6 @@
 
 # DoomWare
-
-
 ## Software and Hardware for communities in decline
-
-
 ### Geography Tools
 + [OsmAnd~ https://osmand.net/](https://osmand.net/)
   - Open Source Map And geolocation/GIS tool
@@ -42,6 +38,7 @@
 ### Data storage, Encryption, etc
 + Steganography and encryption tools
 + Truecrypt?
++ LUKS Encryption through linux
 + Hardware data
   - average lifetime of data on various media
 + Encrypted Chat
@@ -49,8 +46,9 @@
     - https://tox.chat/about.html
     - https://qtox.github.io/
     - https://github.com/Antox/Antox
-  - OTR  (does this belong?)
+  - XMPP(Jabber) and OTR  (does this belong?)
     - https://otr.cypherpunks.ca/
+    - [XMPP https://xmpp.org/](https://xmpp.org/)
   - Whonix
     - https://www.whonix.org/
   - Tails
