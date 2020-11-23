@@ -1,0 +1,48 @@
+A Method To Engrave An Image Into Plywood
+
+This method uses Inkscape and FreeCAD to process an image into gcode, which can be used by a CNC mill to carve the image into plywood or other materials. I've only done plywood.
+
+1. Choose an image. The complexity of the image is limited by several factors. We will be converting it to black and white. We will be drawing it with an endmill router, which in my case was 1/4in wide. There are also severe processing limitations. A big complicated image will take a very very long time for FreeCAD to process, and will possibly freeze up and become very frustrating.
+
+2. Inkscape <edit image to optimize contrast and edges> <create svg> <save svg>
+
+3. FreeCAD : Import SVG as geometry
+	select each path seperately, delete any unnecesary details, and connect dots you want connected. do this now or it'll be fucking impossible later. honestly, avoid this if possible by doing everything you can to simplify the image before you import it to freecad. freecad can do anything, but it might take your stupid little computer hours to catch up, and it might just crash and die.
+
+4. COnvert to Sketch
+	go to Drafts Workbench
+	select all the paths you just imported by clicking on the top one, holding select and the down button. 
+	use Draft To Sketch tool. 
+	delete the highlighted paths, so that you now have only the sketches. 
+	***Give it a minute - this shit might take forever if you have a complex image you are trying to work with***
+
+5. parts workbench >>> extrude  Extrude the sketches. You can highlight them all and extrude them all at once. 
+	the height of your extrusion will be the depth of your engraving
+	***Give it a minute - this shit might take forever if you have a complex image you are trying to work with***	
+	
+6. paths workbench
+	select all the extrusions
+	click on the create a path job dingy
+	output in my case is grbl. entonces i am on team grbl i dont know what your machine uses, today we use grbl
+	my default tool is a 1/4in carbide endmill (5mm) you can pick whatever tool, invent one, i dont care
+	click ok to create job
+	create contour path 
+		***THIS MIGHT TAKE HOURS ON A MORE COMPLICATED PROJECT***
+	make sure you aren't fucking this up. be careful now. this is when you'd fuck this up.
+	study the paths you've just made. do they make sense? 
+	the red paths should be above the work to be cut, and the green paths should cover the whole area you want gone. 
+	you'd think, i know. at this point something important will break and you'll have to start over. this is fine.
+	
+7. You have two options.
+	You can {Simulate Path GCode on Stock} which is cool and nifty and often helpful and takes alot of time and crashes if you interrupt or
+	You can {INspect the G-code Contents of a path} which allows you to take a look at the actual g-code before you export it
+	
+	Doing either of these will then allow you to {Post Process the selected Job} which is stupid gobbledy-guk for "save the G-code as text file"
+		
+	
+
+8. CNC mill information
+	Congrats, you made g-code! Now you gotta get access to a cnc mill. Alot of makerspaces have home-built cnc mills, masses of 3d printed parts and wires and a brutalized undercarriage from new people clicking a big red button that says "Return To Zero". We dont have a standardized CNC mill for our shit yet. every shop is different. What i'm working with isn't what you are working with. I hope not anyway, this machine is a mess. I like her. Anyways, i direct you to our upcoming CNC mill basics page. In my opinion, the machine is a million times easier to fuck with than freecad, you just gotta be fastidious at first, and know how to cancel a command quickly when you fuck up. buy extra bits, you will break them.
+
+
+
