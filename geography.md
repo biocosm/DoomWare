@@ -7,5 +7,6 @@
 + [USFS Topo Maps Scraping Tool](https://gist.github.com/kk7ds/e47b50bd80c405dcdfb9cf44c1448137#file-ustopo_fetch-py)
 + GIS data
   -Links to data sets for roads/pathways, water, agricultural information
+  -[MIT Geodata Repository](https://libguides.mit.edu/gis/Geodata)
 + Tracking
   - Navigation? geolocation/GP
